@@ -1,0 +1,317 @@
+@media only screen and (max-width: 620px){
+    
+    /* navbar */
+    .navbar{
+        display: none;
+    }
+    .mono-nav{
+        display: flex;
+    }
+    /* main section */
+    .main-sec{
+        height: auto;
+        width: 100%;
+        flex-direction: column;
+    }
+    .left-sec{
+        height: 100vh;
+        width: 100%;
+        text-align: center;
+    }
+    .right-sec{
+        height: auto;
+        width: 100%;
+    }
+    .star{
+        width: 100%;
+    }
+    .left-sec-button{
+        width: 100%;
+    }
+    /* card section */
+    .card-sec{
+        height: auto;
+        width: 100%;
+        gap:10px 0px;
+        flex-wrap: wrap;
+        padding-bottom: 70px;
+    }
+    .card-sec img{
+        width: 48%;
+    }
+    /* service section */
+    .service-sec{
+        height: auto;
+        width: 100%;
+    }
+    .service-sec-card{
+        height: 180vh;
+        width: 100%;
+        flex-direction: column;
+    }
+    .service-sec-card-child{
+        height: 55vh;
+        width: 100%;
+    }
+    .service-sec-button{
+        width: 100%;
+    }
+    .service-sec-button-click{
+        width: 49%;
+    }
+    /* story section */
+    .story-sec{
+        height: auto;
+        width: 100%;
+        flex-direction: column;
+    }
+    .story-sec-first{
+        height: 100vh;
+        width: 100%;
+    }
+    .story-sec-random-box{
+        border-radius: 20px;
+        padding-left: 30px;
+        height: 20%;
+    }
+    .story-sec-second{
+        text-align: center;
+        padding: 10px;
+        height: 100vh;
+        width: 100%;
+        overflow: auto;
+        display: flex;
+        align-items: center;
+    }
+    .story-sec-button{
+        width: 50%;
+        font-size: 20px;
+    }
+    /* reason section */
+    .reason-sec{
+        height: auto;
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+    }
+    .reason-sec-first{
+        margin-top: -50px;
+        text-align: center;
+        height: 100vh;
+        width: 100%;
+        overflow: hidden;
+        align-items: center;
+        padding: 0px 10px;
+    }
+    .reason-sec-first span,p{
+        width: 100%;    
+    }
+    .reason-sec-first div{
+        width: 80%;
+    }
+    .reason-sec-second{
+        height: 50vh;
+        width: 100%;
+    }
+    /* process section */
+    .process-sec{
+        height: auto;
+        width: 100%;
+    }
+    .process-sec-bottom{
+        height: auto;
+        width: 100%;
+        flex-direction: column;
+        padding-right: 10px;
+    }
+    .process-sec-left{
+        height: 100vh;
+        width: 100%;
+    }
+    .process-sec-right{
+        height: 100vh;
+        width: 100%;
+    }
+    .process-sec-right i{
+        font-size: 30px;
+    }
+    .process-sec-top{
+        height: auto;
+    }
+    /* contect section */
+    .contect-sec{
+        height: auto;
+        width: 100%;
+        flex-direction: column;
+        padding: 0px 10px;
+    }
+    .contect-sec-left{
+        height: 80vh;
+        width: 100%;
+        padding: 0px;
+        text-align: center;
+    }
+    .contect-sec-left span,h1{
+        width: 100%;
+    }
+    .contect-sec-left-button{
+        width: 100%;
+        justify-content: center;
+    }
+    .contect-sec-left-button-new{
+        width: 49%;
+    }
+    .contect-sec-right{
+        padding: 0px!important;
+        height: auto;
+        width: 100%;
+        flex-direction: column;
+    }
+    .contect-sec-right-first{
+        height: 100vh;
+        width: 100%;
+    }
+    .one-img{
+        height: 100%;
+        width: 100%;
+    }
+    .contect-sec-right-second{
+        height: 120vh;
+        width: 100%;
+    }
+    .contect-sec-two-first{
+        height: 49vh;
+        width: 100%;
+    }
+    .contect-sec-two-second{
+        height: 49vh;
+        width: 100%;
+    }
+    /* artical section */
+    .artical-sec{
+        height: auto;
+        width: 100%;
+    }
+    .artical-sec-top{
+        height: 50vh;
+        width: 100%;
+        flex-direction: column;
+        text-align: center;
+    }
+    .artical-sec-top-button{
+        height: 20vh;
+        width: 100%;
+        padding: 0px 10px;
+    }
+    .first-button{
+        width: 49%;
+    }
+    .second-button{
+        width: 49%;
+    }
+    .artical-sec-bottom{
+        height: auto;
+        width: 100%;
+        flex-direction: column;
+        padding: 0px 10px;
+    }
+    .artical-sec-bottom-first{
+        margin: 10px;
+        height: 70vh;
+        width: 100%;
+    }
+    .artical-first-text{
+        width: 100%;
+        text-align: center;
+    }
+    .artical-first-top{
+        width: 80%;
+        padding: 0px;
+    }
+    .artical-sec-bottom-second{
+        margin: 10px;
+        height: 70vh;
+        width: 100%;
+    }
+    .artical-second-text{
+        width: 100%;
+        text-align: center;
+    }
+    .artical-second-top{
+        width: 80%;
+        padding: 0px;
+    }
+    .bottom{
+        padding-top: 300px;
+        height: auto;
+        width: 100%;
+        display: flex;
+        align-items: end;
+    }
+    .bottom-sec{
+        height: auto;
+        width: 100%;
+    }
+    .bottom-top-position{
+        flex-direction: column;
+    }
+    .info{
+        flex-direction: column;
+        text-align: center;
+        justify-content: space-evenly;
+        padding-top: 20px;
+    }
+    .button{
+        flex-direction: column;
+        width: 100%!important;
+    }
+    /* bottom section */
+    .bottom-first-button{
+        height: 30%;
+        width: 50%;
+    }
+    .bottom-second-button{
+        height: 30%;
+        width: 50%;
+    }
+    .bottom-last{
+        flex-direction: column;
+        height: auto;
+        width: 100%;
+    }
+    .bottom-first{
+        margin-top: 300px;
+        width: 100%;
+        height: 60vh;
+        text-align: center;
+    }
+    .bottom-second{
+        height: 60vh;
+        width: 100%;
+        text-align: center;
+    }
+    h3{
+        margin-top: 20px;
+    }
+    .bottom-third{
+        height: 60vh;
+        width: 100%;
+        text-align: center;
+    }
+    .bottom-four{
+        height: 60vh;
+        width: 100%;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 0px 10px;
+    }
+    .details{
+        align-items: center;
+    }
+    .details span{
+        width: 100%;
+        text-align: center;
+    }
+}
